@@ -1,0 +1,18 @@
+h1 {
+  font-size: 1.8em;
+}
+h3 {
+  text-align: center;
+  font-size: 1.1em;
+  max-width: 100%;
+  color: white;
+  background: rgba(33, 67, 227, 0.8);
+  margin: 20px;
+  padding: 20px;
+}
+body {
+  background: #fff;
+  color: #000;
+  line-height: 1.2em;
+  margin: 15px
+}
