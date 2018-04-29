@@ -14,7 +14,7 @@ class Word {
   }
 
   int countConsonants() {
-    RegExp r = new RegExp("[^aeiouAEIOU]");
+    RegExp r = new RegExp("(?=[^aeiouAEIOU])[b-zB-Z]");
     print(r.allMatches(this.desc));
     return r.allMatches(this.desc).length;
   }
