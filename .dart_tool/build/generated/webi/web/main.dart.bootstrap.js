@@ -23,7 +23,8 @@ var baseUrl = (function () {
 
 let modulePaths = {
  "dart_sdk": "packages/$sdk/dev_compiler/amd/dart_sdk",
- "web/main": "main.ddc"
+ "web/main": "main.ddc",
+ "packages/webi/word": "packages/webi/word.ddc"
 };
 if(!window.$dartLoader) {
    window.$dartLoader = {

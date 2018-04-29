@@ -1,26 +1,5 @@
 import 'dart:html';
-
-class Word {
-  final String desc;
-  Word(this.desc);
-
-  String reverse(){
-   return this.desc.split('').reversed.join();
-  }
-
-  int countVowels(){
-    RegExp r = new RegExp("[aeiouAEIOU]");
-    return r.allMatches(this.desc).length;
-  }
-
-  int countConsonants() {
-    RegExp r = new RegExp("(?=[^aeiouAEIOU])[b-zB-Z]");
-    print(r.allMatches(this.desc));
-    return r.allMatches(this.desc).length;
-  }
-
-  String get showDesc => this.desc;
-}
+import '../lib/word.dart';
 
 void main() {
   ButtonElement btn = querySelector("#btn");

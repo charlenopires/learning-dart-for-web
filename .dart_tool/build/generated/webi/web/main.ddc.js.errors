@@ -1,0 +1,8 @@
+Error compiling dartdevc module:webi|web/main.ddc.js
+
+[error] Target of URI doesn't exist: '../lib/word.dart'. (/web/main.dart, line 2, col 8)
+[error] Undefined class 'Word'. (/web/main.dart, line 9, col 5)
+[error] The function 'Word' isn't defined. (/web/main.dart, line 9, col 17)
+
+Please fix all errors before compiling (warnings are okay).
+}
